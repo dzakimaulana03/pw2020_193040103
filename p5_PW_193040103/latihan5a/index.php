@@ -11,13 +11,14 @@ $result = mysqli_query($conn, "SELECT * FROM  novel")
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="assets/css/index.css">
 	<title>Halaman Admin</title>
 </head>
 <body>
 	<div class="container">
 	<h1 >Daftar Novel</h1>
 		<table border="1" cellpadding="10" cellspacing="0">
-			<tr>
+			<tr class="head">
 				<th>No.</th>
 				
 				<th>Gambar</th>
@@ -30,7 +31,7 @@ $result = mysqli_query($conn, "SELECT * FROM  novel")
 			</tr>
 			<?php $i = 1 ?>
 			<?php while($row = mysqli_fetch_assoc($result)) : ?>
-			<tr>
+			<tr class="body">
 				<td><?php echo $i ?></td>
 			
 				<td><img src="assets/img/<?= $row["gambar"]; ?>" width="100" alt=""></td>

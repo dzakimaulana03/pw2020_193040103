@@ -1,0 +1,14 @@
+body{
+	background-color: skyblue;
+}
+.head{
+	background-color: lightgreen;
+}
+.body{
+	background-color: lightgrey;
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+}
