@@ -25,6 +25,8 @@ $novel = query("SELECT * FROM novel");
 				<th>Penulis</th>
 				<th>Tahun Terbit</th>
 				<th>Sinopsis</th>
+				<th>Harga</th>
+
 			</tr>
 			<?php $i = 1 ?>
 			<?php foreach ($novel as $row): ?>
@@ -37,6 +39,7 @@ $novel = query("SELECT * FROM novel");
 				<td><?= $row["Penulis"];  ?></td>
 				<td><?= $row["Tahun Terbit"];  ?></td>
 				<td><?= $row["Sinopsis"];  ?></td>
+				<td>Rp.<?= $row["Harga"];  ?>,-</td>
 			</tr>
 			<?php $i++ ?>
 	<?php endforeach; ?>
