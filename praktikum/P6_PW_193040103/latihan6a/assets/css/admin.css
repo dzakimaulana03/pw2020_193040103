@@ -1,0 +1,24 @@
+body{
+	background-color: skyblue;
+}
+.head{
+	background-color: lightgreen;
+}
+.body{
+	background-color: lightgrey;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+.btn{
+	background-color:blue;
+	float: left
+}
+
+.aksii{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	float: left; 
+}

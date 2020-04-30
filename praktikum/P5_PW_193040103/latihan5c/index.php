@@ -128,7 +128,7 @@ $novel = query("SELECT * FROM novel");
 		<?php foreach($novel as $nv) : ?>
 
       <div class="col s12 m7">
-    <h4 class="header" style="font-weight: bold"><?= $nv["Judul Buku"];  ?></h4>
+    <h4 class="header" style="font-weight: bold"><?= $nv["Judul_Buku"];  ?></h4>
     <div class="card horizontal">
       <div class="card-image card0 ">
         <img src="assets/img/<?= $nv["gambar"];  ?>">
@@ -140,7 +140,7 @@ $novel = query("SELECT * FROM novel");
         </div>
         <div class="card-action">
             <p class="Judul">
-        <a class="waves-effect orange lighten-2 waves-red btn" href="php/detail.php?id=<?= $nv['id']?>"><?= $nv["Judul Buku"];  ?></a>
+        <a class="waves-effect orange lighten-2 waves-red btn" href="php/detail.php?id=<?= $nv['id']?>"><?= $nv["Judul_Buku"];  ?></a>
       </p>
 
         </div>

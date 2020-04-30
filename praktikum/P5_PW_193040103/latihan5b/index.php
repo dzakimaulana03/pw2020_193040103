@@ -33,11 +33,11 @@ $novel = query("SELECT * FROM novel");
 			<tr class="body">
 				<td><?php echo $i ?></td>
 				<td><img src="assets/img/<?= $row["gambar"]; ?>" width="100" alt=""></td>
-				<td><?= $row["Judul Buku"];  ?></td>
+				<td><?= $row["Judul_Buku"];  ?></td>
 				<td><?= $row["Penerbit"];  ?></td>
-				<td><?= $row["Jumlah Halaman"];  ?></td>
+				<td><?= $row["Jumlah_Halaman"];  ?></td>
 				<td><?= $row["Penulis"];  ?></td>
-				<td><?= $row["Tahun Terbit"];  ?></td>
+				<td><?= $row["Tahun_Terbit"];  ?></td>
 				<td><?= $row["Sinopsis"];  ?></td>
 				<td>Rp.<?= $row["Harga"];  ?>,-</td>
 			</tr>
