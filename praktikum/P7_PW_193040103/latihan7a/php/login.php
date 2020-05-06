@@ -76,11 +76,11 @@
 		</div>
 		<div class="remember">
 			<label name="remember" >
-        <input type="checkbox" for="remember" />
+        <input type="checkbox" for="remember" name="remember" />
         <span>Remember me</span>
         </label>
 		</div>
-		<a class="waves-effect waves-light btn" type="submit" name="submit">Login</a>
+		<button type="submit" name="submit" class=" blue darken-1 "><a class="white-text">LOGIN</a></button>
 	</div>
 		
 </div>
