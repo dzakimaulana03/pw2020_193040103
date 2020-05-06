@@ -1,0 +1,16 @@
+
+
+.row{
+	float: left;
+	margin-bottom: 175px;
+	margin-right: 50px;
+}
+
+.sinopsis{
+	margin-top: 50px;
+ }
+
+ .sin{
+ 	font-weight: 100px;
+ 	text-shadow: 0.7px 0px grey;
+ }
